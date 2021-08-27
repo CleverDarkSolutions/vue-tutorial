@@ -12,12 +12,12 @@
             },
             color: {
                 type: String,
-            } 
+            }, 
         },
 
         methods: {
             onClick() {
-                console.log("click");
+                this.$emit('btn-click');
             }
         }
     }
